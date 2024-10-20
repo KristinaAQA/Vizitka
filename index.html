@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>Кристина</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <img src="./photo.png" alt="Специалист по тестированию Кристина Антонова" width="120" class="photo">
+    <div class="name">КРИСТИНА АНТОНОВА</div>
+
+    <div class="block">
+      <div class="block-title">на связи</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="http://t.me/antonova_kris" target="_blank"> telegram</a>
+        </div>
+        <div class="entry">
+          <a href="mailto:kristina.antonova.qa@yandex.ru">E-mail</a>
+        </div>
+        <div class="entry">
+          <a href="https://github.com/KristinaAQA" target="_blank">github</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">владею инструментами</div>
+      <div class="entry">
+        Postman
+      </div>
+      <div class="entry">
+        Charles
+      </div>
+      <div class="entry">
+        SOAP UI
+      </div>
+      <div class="entry">
+        Kibana
+      </div>
+      <div class="entry">
+        Sentry
+      </div>
+      <div class="entry">
+        Яндекс трекер
+      </div>
+      <div class="entry">
+        Test it
+      </div>
+      <div class="entry">
+        Jira
+      </div>
+       <div class="entry">
+        Grafana
+      </div>
+      <div class="entry">
+        Figma
+      </div>
+      <div class="entry">
+        Miro
+      </div>
+     <div class="entry">
+        SQL
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">чем занимаюсь</div>
+      <div class="entry">
+        <a href="https://planseo.ru/" target="_blank">тестирую PlanSEO</a>
+      </div>
+      <div class="entry">
+        Занимаюсь TRX
+      </div>
+    </div>
+  </body>
+</html>
